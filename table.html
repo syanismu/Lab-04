@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -12,12 +14,12 @@
             padding: 2px;
         }
 
-        ul {
+        ul:not(.list) {
             list-style: none;
             text-align: center;
         }
 
-        li {
+        li:not(.list) {
             display: inline-block;
         }
 
@@ -70,117 +72,115 @@
     </header>
 
     <main>
-        <section>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Thumbnail</th>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Age</th>
-                        <th>Hobbies</th>
-                    </tr>
-                </thead>
+        <table>
+            <thead>
+                <tr>
+                    <th>Thumbnail</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Hobbies</th>
+                </tr>
+            </thead>
 
-                <tbody>
-                    <tr>
-                        <td>
-                            <figure>
-                                <img src="./images/FeyjaLeone.jpg" alt="A digital drawing of a pale girl with long light blonde hair, orange glasses and sheep ears. 
+            <tbody>
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="./images/FeyjaLeone.jpg" alt="A digital drawing of a pale girl with long light blonde hair, orange glasses and sheep ears. 
                                         She is holding her hands together and looking shyly to the right" width="200">
-                                <br>
-                                <cite>Source: <a href="https://www.instagram.com/p/Chc1zTWq-Og/">l00_ji on
-                                        Instagram</a></cite>
-                            </figure>
-                        </td>
-                        <td>Feyja</td>
-                        <td>Leone</td>
-                        <td>27</td>
-                        <td>
-                            <ul>
-                                <li>Research</li><br><br>
-                                <li>Magic</li><br><br>
-                                <li>Photography</li>
-                            </ul>
-                        </td>
-                    </tr>
+                            <br>
+                            <cite>Source: <a href="https://www.instagram.com/p/Chc1zTWq-Og/">l00_ji on
+                                    Instagram</a></cite>
+                        </figure>
+                    </td>
+                    <td>Feyja</td>
+                    <td>Leone</td>
+                    <td>27</td>
+                    <td>
+                        <ul class="list">
+                            <li class="list">Research</li>
+                            <li class="list">Magic</li>
+                            <li class="list">Photography</li>
+                        </ul>
+                    </td>
+                </tr>
 
-                    <tr>
-                        <td>
-                            <figure>
-                                <img src="./images/MoriannaMcKai.jpg"
-                                    alt="A drawing of a light skinned Monster Hunter girl in a white, brown and black hunting outfit with a matching hat doing the peace sign. 
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="./images/MoriannaMcKai.jpg"
+                                alt="A drawing of a light skinned Monster Hunter girl in a white, brown and black hunting outfit with a matching hat doing the peace sign. 
                                         Her hat has a brown ribbon with a green border wrapped around it. She also has a cane." width="200">
-                                <br>
-                                <cite>Source: <a href="https://www.instagram.com/p/CG95R0mDatf/">zaiisey on
-                                        Instagram</a></cite>
-                            </figure>
-                        </td>
-                        <td>Morianna</td>
-                        <td>McKai</td>
-                        <td>32</td>
-                        <td>
-                            <ul>
-                                <li>Hunting</li><br><br>
-                                <li>Foraging</li><br><br>
-                                <li>Cooking</li>
-                            </ul>
-                        </td>
-                    </tr>
+                            <br>
+                            <cite>Source: <a href="https://www.instagram.com/p/CG95R0mDatf/">zaiisey on
+                                    Instagram</a></cite>
+                        </figure>
+                    </td>
+                    <td>Morianna</td>
+                    <td>McKai</td>
+                    <td>32</td>
+                    <td>
+                        <ul class="list">
+                            <li class="list">Hunting</li>
+                            <li class="list">Foraging</li>
+                            <li class="list">Cooking</li>
+                        </ul>
+                    </td>
+                </tr>
 
-                    <tr>
-                        <td>
-                            <figure>
-                                <img src="./images/NamiRue.jpg"
-                                    alt="A digital drawing of a green tiefling with white horns that have golden tips, 
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="./images/NamiRue.jpg"
+                                alt="A digital drawing of a green tiefling with white horns that have golden tips, 
                                         long wavy black hair surrounded by and scattered with red flowers. Her hands up to her face in a shy manner."
-                                    width="200">
-                                <br>
-                                <cite>Source: <a href="https://www.instagram.com/p/CeMbFL7MZcy/">naomi_lord on
-                                        Instagram</a></cite>
-                            </figure>
-                        </td>
-                        <td>Nami</td>
-                        <td>Rue</td>
-                        <td>22</td>
-                        <td>
-                            <ul>
-                                <li>Sewing</li><br><br>
-                                <li>Cartography</li><br><br>
-                                <li>Music</li>
-                            </ul>
-                        </td>
-                    </tr>
+                                width="200">
+                            <br>
+                            <cite>Source: <a href="https://www.instagram.com/p/CeMbFL7MZcy/">naomi_lord on
+                                    Instagram</a></cite>
+                        </figure>
+                    </td>
+                    <td>Nami</td>
+                    <td>Rue</td>
+                    <td>22</td>
+                    <td>
+                        <ul class="list">
+                            <li class="list">Sewing</li>
+                            <li class="list">Cartography</li>
+                            <li class="list">Music</li>
+                        </ul>
+                    </td>
+                </tr>
 
-                    <tr>
-                        <td>
-                            <figure>
-                                <img src="./images/SeraphinaMallie.jpg"
-                                    alt="A digital drawing of a dark skinned girl with short but full brown hair in an orange dress with puffy sleeves with 
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="./images/SeraphinaMallie.jpg"
+                                alt="A digital drawing of a dark skinned girl with short but full brown hair in an orange dress with puffy sleeves with 
                                         her eyes closed and a single earring showing. There is a big moon and castle in the background in white."
-                                    width="200">
-                                <br>
-                                <cite>Source: <a href="https://www.instagram.com/p/CjNCCiRKhM3/">anxara.art on
-                                        Instagram</a></cite>
-                            </figure>
-                        </td>
-                        <td>Seraphina</td>
-                        <td>Mallie</td>
-                        <td>25</td>
-                        <td>
-                            <ul>
-                                <li>Smithing</li><br><br>
-                                <li>Training</li><br><br>
-                                <li>Animal Handling</li>
-                            </ul>
-                        </td>
-                    </tr>
+                                width="200">
+                            <br>
+                            <cite>Source: <a href="https://www.instagram.com/p/CjNCCiRKhM3/">anxara.art on
+                                    Instagram</a></cite>
+                        </figure>
+                    </td>
+                    <td>Seraphina</td>
+                    <td>Mallie</td>
+                    <td>25</td>
+                    <td>
+                        <ul class="list">
+                            <li class="list">Smithing</li>
+                            <li class="list">Training</li>
+                            <li class="list">Animal Handling</li>
+                        </ul>
+                    </td>
+                </tr>
 
-                </tbody>
-            </table>
-        </section>
+            </tbody>
+        </table>
     </main>
-    
+
     <footer>&copy;2022 Shania Muller</footer>
 </body>
 
